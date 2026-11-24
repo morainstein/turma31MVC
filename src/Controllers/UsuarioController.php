@@ -2,7 +2,8 @@
 
 namespace Morainstein\Mvc\Controllers;
 
-class UsuarioController {
+class UsuarioController implements Controller
+{
 
   public function index() {
     echo "Lista de usuários...";
@@ -18,5 +19,9 @@ class UsuarioController {
 
   public function update() {
     echo "Atualizando o usuário " . $_GET['id'] . "...";
+  }
+
+  public function exemplo() {
+    echo "rota de exemplo";
   }
 }

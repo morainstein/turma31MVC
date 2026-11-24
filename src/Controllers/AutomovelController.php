@@ -2,7 +2,8 @@
 
 namespace Morainstein\Mvc\Controllers;
 
-class AutomovelController {
+class AutomovelController implements Controller
+{
 
   public function index() {
     echo "Lista de automóveis...";
