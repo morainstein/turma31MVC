@@ -1,0 +1,15 @@
+{
+    "name": "morainstein/mvc",
+    "autoload": {
+        "psr-4": {
+            "Morainstein\\Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "morainstein",
+            "email": "nichroberto@gmail.com"
+        }
+    ],
+    "require": {}
+}
